@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: My Room Final.ma
-//Last modified: Wed, Mar 25, 2026 12:00:25 AM
+//Last modified: Wed, Mar 25, 2026 12:43:29 AM
 //Codeset: 1252
 file -rdi 1 -ns "Floor" -rfn "FloorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/chand/Documents/GitHub/Essentials/DAGV1100and1200/Maya/scenes/MyProject/scenes/Floor.ma";
 file -rdi 1 -ns "WallWindow" -rfn "WallWindowRN" -op "v=0;" -typ "mayaAscii"
@@ -44,19 +44,19 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "C9B525B7-4758-93F0-99BD-8AB5DE65CD79";
+fileInfo "UUID" "9E518CAF-4DD0-1873-4615-F8B0F5A28A9C";
 createNode transform -s -n "persp";
 	rename -uid "307AE3FE-4B95-98B0-A940-FBA06B675261";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 36.567490109461154 21.100393046238782 38.280422146208501 ;
-	setAttr ".r" -type "double3" -14.138352696504345 -1396.2000000002754 0 ;
+	setAttr ".t" -type "double3" 16.718773440224979 14.115793566244442 16.774440246814049 ;
+	setAttr ".r" -type "double3" -26.738352696503206 -1392.9999999997592 2.3317905641198181e-15 ;
 	setAttr ".rp" -type "double3" 0 -4.4408920985006262e-16 0 ;
 	setAttr ".rpt" -type "double3" -2.0586227574584827e-17 4.7909083240693901e-19 1.2230472769678446e-18 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0A96924A-4BB1-E07C-689D-38A6A1B559B3";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 55.450924740789887;
+	setAttr ".coi" 23.477756684964927;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -116,7 +116,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
 createNode fosterParent -n "TableRNfosterParent1";
-	rename -uid "3C1F2F56-44FF-6278-EC61-CB9C43CD7359";
+	rename -uid "5692B5D8-49FE-3315-E360-06B35E4842AC";
 createNode mesh -n "Table:polySurfaceShape1" -p "TableRNfosterParent1";
 	rename -uid "35EBACC6-4692-EC79-D357-F1A9DA1AA415";
 	setAttr -k off ".v";
@@ -881,7 +881,7 @@ createNode mesh -n "Table:polySurfaceShape1" -p "TableRNfosterParent1";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".bw" 3;
 createNode fosterParent -n "Chair1RNfosterParent1";
-	rename -uid "994427E0-4138-09CD-03B5-2798D26BACFB";
+	rename -uid "F6903221-4A69-90B7-9A1F-4FA2E23757C3";
 createNode mesh -n "Chair1:chair:polySurfaceShape1" -p "Chair1RNfosterParent1";
 	rename -uid "2BAC383F-499E-0088-8EBB-9FB44DE05751";
 	setAttr -k off ".v";
