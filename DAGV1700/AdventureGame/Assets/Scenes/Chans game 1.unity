@@ -636,8 +636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9914d55c3075a4b14a80c1204e72e335, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FlipTransformBehaviour
-  key1: 275
-  key2: 276
+  key1: 100
+  key2: 97
   direction1: 0
   direction2: 180
 --- !u!1 &1397514583
