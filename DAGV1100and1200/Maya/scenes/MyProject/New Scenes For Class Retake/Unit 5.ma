@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: Unit 4 Milestone.ma
-//Last modified: Wed, Sep 23, 2026 11:23:47 PM
+//Name: Unit 5.ma
+//Last modified: Wed, Sep 23, 2026 11:25:06 PM
 //Codeset: 1252
 requires maya "2026";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -13,17 +13,17 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "77794855-4CF0-36D9-D99A-ABB6247D8FF4";
+fileInfo "UUID" "5624F146-45D4-7750-4EA9-C59918B1AA2E";
 createNode transform -s -n "persp";
 	rename -uid "4AB9EDBE-40DB-99F3-74A3-20B82600CFA5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 38.05750005724046 36.666815546635988 0.068604543703710802 ;
-	setAttr ".r" -type "double3" -36.938352297659257 -2430.9999999999686 -3.6448322390301631e-13 ;
+	setAttr ".t" -type "double3" 33.521390965738206 28.114701375052746 27.46305964084257 ;
+	setAttr ".r" -type "double3" -25.538352301190265 -2468.1999999996297 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "84040405-4B16-38AA-D0A4-0992ACE7112A";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 50.353883220460823;
+	setAttr ".coi" 50.353883220462833;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -42478,4 +42478,4 @@ connectAttr "SwordShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "ShieldShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Goblet:revolvedSurfaceShape2.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "ship_1:pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Unit 4 Milestone.ma
+// End of Unit 5.ma
